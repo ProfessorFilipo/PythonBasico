@@ -30,7 +30,7 @@ def MostraMatriz(titulo, matriz):
 ### Cria a matriz e a popula com o caracter indicado
 ###
 def PopulaMatriz(qtLinhas, qtColunas, caracter):
-    matriz = [[caracter] * qtColunas for i in range(qtLinhas)] # cria a matriz populada com o cacater informado
+    matriz = [[caracter] * qtColunas for i in range(qtLinhas)] # cria a matriz populada com o caracter informado
     for i in range(qtLinhas): # preenche a matriz com o caracter informado
         for j in range(qtColunas):
             matriz[i][j] = caracter
